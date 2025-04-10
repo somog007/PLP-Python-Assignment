@@ -4,7 +4,7 @@ def modify_content(content):
     return content.upper()
 
 def modify_content(content):
-    # Add your own modification logic here
+    # Add your modification logic here
     # Example: Reverse each line
     return '\n'.join([line[::-1] for line in content.split('\n')])
 
